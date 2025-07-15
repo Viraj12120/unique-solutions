@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
-  return (
-		<div className="w-full bg-[#101010] text-white font-ubuntu py-12 px-6 md:px-16">
-			<div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 items-start">
+	return (
+		<div className="w-full  bg-[#101010] text-white pt-16 font-ubuntu  px-6 md:px-16">
+			<div className="max-w-7xl mx-auto grid grid-cols-1  md:grid-cols-4 gap-12 items-start">
 				{/* Logo */}
 				<div className="flex justify-center md:justify-start">
 					<img
@@ -75,19 +75,21 @@ const Footer = () => {
 			</div>
 
 			{/* Bottom Bar */}
-			<div className="border-t border-gray-700 mt-24  flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
-				<p className='mt-4'>© 2025 Unique Solutions, Kolhapur. All rights reserved.</p>
-				<div className="flex gap-4 mt-4 md:mt-0">
-					<a href="/privacy-policy" className="hover:underline mt-4">
-						Privacy Policy
-					</a>
-					<a href="/terms" className="hover:underline mt-4">
-						Terms of Service
-					</a>
+			<div className="border-t border-gray-700 mt-36 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400 py-6">
+				<p className="mt-4 md:mt-0">
+					© 2025 Unique Solutions, Kolhapur. All rights reserved.
+				</p>
+				<div className="mt-4 md:mt-0">
+					<p>
+						Created by{" "}
+						<a href="https://quarx.vercel.app/" target="_blank">
+							<span className="text-white">QuarkX</span>
+						</a>
+					</p>
 				</div>
 			</div>
 		</div>
 	);
-}
+};
 
-export default Footer
+export default Footer;
