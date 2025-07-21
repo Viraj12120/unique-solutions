@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useState, useEffect } from "react";
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -6,12 +7,23 @@ import Products from "./pages/Products";
 import QualityAssuarance from "./pages/QualityAssuarance";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
+import BarLoader from "./components/BarLoader"; // Loader with color spectrum
 
 function App() {
+	const [loading, setLoading] = useState(true);
+
+	useEffect(() => {
+		const timer = setTimeout(() => setLoading(false), 5000); // 5 seconds
+		return () => clearTimeout(timer);
+	}, []);
+
+	if (loading) {
+		return <BarLoader />;
+	}
+
 	return (
 		<Router>
 			<Header />
-
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/about" element={<About />} />

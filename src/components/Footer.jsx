@@ -15,7 +15,7 @@ const Footer = () => {
 
 				{/* Quick Links */}
 				<div>
-					<h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+					<h3 className="text-xl font-semibold mb-4">Quick Links</h3>
 					<ul className="grid grid-cols-2 gap-y-2 gap-x-8 text-sm text-gray-300">
 						{[
 							{ label: "Home", href: "/" },

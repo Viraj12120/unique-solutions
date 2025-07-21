@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import Aboutus from "../components/Aboutus";
 import { Link } from "react-router-dom";
 const Home = () => {
+
+	
 	return (
 		<div className="w-screen ">
 			<div className="font-ubuntu relative w-full min-h-screen overflow-hidden">
