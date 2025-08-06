@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
 	return (
+		
 		<div className="min-h-screen bg-[#FAFAFA] font-nunito text-gray-900">
 			{/* Hero Section */}
 			<div className="relative w-full h-[60vh] bg-[#101010] flex items-center justify-center overflow-hidden">
