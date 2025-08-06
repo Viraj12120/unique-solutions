@@ -89,7 +89,7 @@ const Aboutus = () => {
 					transition={{ duration: 1, delay: 0.3 }}
 					viewport={{ amount: 0.3 }}
 					className="w-full md:w-1/2">
-					<p className="font-text-lg lg:text-2xl sm:text-xl text-gray-500  leading-relaxed">
+					<p className="font-text-lg lg:text-2xl sm:text-xl text-gray-400  leading-relaxed">
 						Unique Solutions, based in{" "}
 						<span className="font-bold italic text-[#A4DD00]">
 							Shiroli MIDC
