@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import Lottie from "lottie-react";
 const ContactUs = () => {
 	const [formData, setFormData] = useState({
@@ -47,7 +47,7 @@ const ContactUs = () => {
 	return (
 		<div>
 			<title>
-				Contact – Unique Solution | Jig & Fixture Manufacturer, Kolhapur
+				Contact - Unique Solution | Jig & Fixture Manufacturer, Kolhapur
 			</title>
 			<meta
 				name="description"
