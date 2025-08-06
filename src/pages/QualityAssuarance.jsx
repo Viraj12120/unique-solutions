@@ -5,7 +5,7 @@ const QualityAssurance = () => {
 		<div>
 			<head>
 				<title>
-					Quality Assurance – Unique Solution | Precision & Performance
+					Quality Assurance - Unique Solution | Precision & Performance
 				</title>
 				<meta
 					name="description"

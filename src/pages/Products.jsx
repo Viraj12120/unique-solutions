@@ -47,7 +47,7 @@ const Products = () => {
 	return (
 		<div>
 			<title>
-				Products – Unique Solution | Precision Jig Fixtures, Hydraulic Systems &
+				Products - Unique Solution | Precision Jig Fixtures, Hydraulic Systems &
 				Machining Solutions
 			</title>
 			<meta

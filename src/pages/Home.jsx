@@ -6,7 +6,7 @@ const Home = () => {
 		<div>
 			<head>
 				<title>
-					Unique Group – Innovative Jig Manufacturing and Machining Solutions
+					Unique Group - Innovative Jig Manufacturing and Machining Solutions
 				</title>
 				<meta
 					name="description"

@@ -78,7 +78,7 @@ const Aboutus = () => {
 	return (
 		<div>
 			<title>
-				About Us – Unique Solution | Quality Jig & Fixture Manufacturer,
+				About Us - Unique Solution | Quality Jig & Fixture Manufacturer,
 				Kolhapur
 			</title>
 			<meta
