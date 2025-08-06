@@ -7,8 +7,7 @@ import Products from "./pages/Products";
 import QualityAssuarance from "./pages/QualityAssuarance";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
-import BarLoader from "./components/BarLoader"; 
-import ServiceDetail from "./pages/service/[slug]";
+import BarLoader from "./components/BarLoader";
 
 function App() {
 	const [loading, setLoading] = useState(true);
@@ -27,7 +26,6 @@ function App() {
 			<Header />
 			<Routes>
 				<Route path="/" element={<Home />} />
-				<Route path="/service/:slug" element={<ServiceDetail />} />
 				<Route path="/about" element={<About />} />
 				<Route path="/products" element={<Products />} />
 				<Route path="/quality" element={<QualityAssuarance />} />
