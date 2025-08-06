@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Lottie from "lottie-react";
-import gears from "../assets/animations/gears.json"
 const ContactUs = () => {
 	const [formData, setFormData] = useState({
 		firstName: "",
@@ -10,6 +9,14 @@ const ContactUs = () => {
 		email: "",
 		message: "",
 	});
+
+	const [animationData, setAnimationData] = useState(null);
+
+	useEffect(() => {
+		fetch("/gears.json")
+			.then((res) => res.json())
+			.then((data) => setAnimationData(data));
+	}, []);
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
@@ -245,14 +252,14 @@ const ContactUs = () => {
 					<h2 className="text-2xl md:text-3xl font-bold text-gray-700 mb-4">
 						Right first time. Every time.
 					</h2>
-					<div className="mt-8 flex justify-center items-center">
+					{animationData && (
 						<Lottie
-							animationData={gears}
+							animationData={animationData}
 							loop
 							autoplay
 							className="w-[280px] md:w-[350px] lg:w-[400px]"
 						/>
-					</div>
+					)}
 				</div>
 			</div>
 		</div>
