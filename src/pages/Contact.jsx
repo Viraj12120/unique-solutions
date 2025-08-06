@@ -19,10 +19,6 @@ const ContactUs = () => {
 			.catch((err) => console.error("Failed to load Lottie animation:", err));
 	}, []);
 
-
-
-
-
 	const handleSubmit = (e) => {
 		e.preventDefault();
 
