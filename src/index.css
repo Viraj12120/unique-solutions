@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+@import "tailwindcss";
+.no-scrollbar::-webkit-scrollbar {
+	display: none;
+}
+.no-scrollbar {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+@layer utilities {
+	@keyframes scrollX {
+		0% {
+			transform: translateX(0%);
+		}
+		100% {
+			transform: translateX(-50%);
+		}
+	}
+
+	.animate-scroll-x {
+		animation: scrollX 20s linear infinite;
+	}
+}
+body {
+	overflow-x: hidden;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+@keyframes loading {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.animate-loading {
+  animation: loading 5s linear forwards;
+  background: linear-gradient(
+    90deg,
+     #ff4e50 0%,
+  #ff4e50 33%,
+  #ff4e50 66%,
+  #ff4e50 100%
+
+  );
+  height: 8px;
+  border-radius: 5px;
+}
+
