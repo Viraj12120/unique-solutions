@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Lottie from "lottie-react";
+import gears from "../assets/animations/gears.json"
 const ContactUs = () => {
 	const [formData, setFormData] = useState({
 		firstName: "",
@@ -246,7 +247,7 @@ const ContactUs = () => {
 					</h2>
 					<div className="mt-8 flex justify-center items-center">
 						<Lottie
-							path="/gears.json"
+							animationData={gears}
 							loop
 							autoplay
 							className="w-[280px] md:w-[350px] lg:w-[400px]"
