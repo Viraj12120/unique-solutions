@@ -29,7 +29,7 @@ const Home = () => {
 					/>
 
 					{/* Overlay */}
-					<div className="absolute inset-0 bg-black/60 z-10"></div>
+					<div className="absolute inset-0 bg-black/40 z-10"></div>
 
 					{/* Hero Content */}
 					<motion.div

@@ -7,9 +7,9 @@ const Footer = () => {
 				{/* Logo */}
 				<div className="flex justify-center md:justify-start">
 					<img
-						src="/l.png"
+						src="/us.jpg"
 						alt="Unique Solutions Logo"
-						className="w-28 object-contain"
+						className="w-36 object-contain"
 					/>
 				</div>
 

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Lottie from "lottie-react";
 const ContactUs = () => {
 	const [formData, setFormData] = useState({
 		firstName: "",
@@ -243,6 +244,14 @@ const ContactUs = () => {
 					<h2 className="text-2xl md:text-3xl font-bold text-gray-700 mb-4">
 						Right first time. Every time.
 					</h2>
+					<div className="mt-8 flex justify-center items-center">
+						<Lottie
+							path="/gears.json"
+							loop
+							autoplay
+							className="w-[280px] md:w-[350px] lg:w-[400px]"
+						/>
+					</div>
 				</div>
 			</div>
 		</div>

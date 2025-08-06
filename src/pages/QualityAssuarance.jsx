@@ -22,7 +22,7 @@ const QualityAssurance = () => {
 				{/* 🔷 Hero Section */}
 				<div className="relative w-full h-[75vh]">
 					<img
-						src="/u.jpg"
+						src="/wm9.jpg"
 						alt="Quality Assurance"
 						className="w-full h-full object-cover object-center"
 					/>

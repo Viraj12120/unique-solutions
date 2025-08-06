@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 const About = () => {
 	return (
-		
 		<div className="min-h-screen bg-[#FAFAFA] font-nunito text-gray-900">
 			{/* Hero Section */}
 			<div className="relative w-full h-[60vh] bg-[#101010] flex items-center justify-center overflow-hidden">
@@ -46,7 +45,7 @@ const About = () => {
 						initial={{ opacity: 0, y: 20 }}
 						whileInView={{ opacity: 1, y: 0 }}
 						transition={{ duration: 0.6, delay: 0.2 }}
-						className="text-gray-600 max-w-2xl mx-auto">
+						className="text-gray-600 text-xl max-w-2xl mx-auto">
 						A strong collaboration between{" "}
 						<span className="font-semibold">Unique Solutions</span> and{" "}
 						<span className="font-semibold">Unique Vision</span>, led by
@@ -62,7 +61,7 @@ const About = () => {
 						initial={{ opacity: 0, y: 30 }}
 						whileInView={{ opacity: 1, y: 0 }}
 						transition={{ duration: 0.8 }}
-						className="bg-white rounded-xl shadow-md p-6">
+						className="bg-white rounded-sm shadow-xs p-6">
 						<h3 className="text-xl font-semibold mb-2">Unique Solutions</h3>
 						<p className="text-gray-600 mb-4 text-sm">
 							Delivering Jigs and machining solutions across India.
@@ -73,7 +72,7 @@ const About = () => {
 							alt="Unique Vision"
 							className="w-full h-auto rounded-md mb-4"
 						/> */}
-						<ul className="text-sm text-gray-700 space-y-1">
+						<ul className="text-md text-gray-700 space-y-1">
 							<li> Mr. Ranjeet Khade – Managing Director</li>
 						</ul>
 					</motion.div>
@@ -83,7 +82,7 @@ const About = () => {
 						initial={{ opacity: 0, y: 30 }}
 						whileInView={{ opacity: 1, y: 0 }}
 						transition={{ duration: 0.8 }}
-						className="bg-white rounded-xl shadow-md p-6">
+						className="bg-white rounded-sm shadow-xs p-6">
 						<h3 className="text-xl font-semibold mb-2">Unique Vision</h3>
 						<p className="text-gray-600 mb-4 text-sm">
 							Focused on automation & control systems for next-gen industrial
@@ -94,7 +93,7 @@ const About = () => {
 							alt="Unique Vision"
 							className="w-full h-auto rounded-md mb-4"
 						/> */}
-						<ul className="text-sm text-gray-700 space-y-1">
+						<ul className="text-md text-gray-700 space-y-1">
 							<li>Mr Sagar Khot – CEO of Unique Group</li>
 						</ul>
 					</motion.div>
@@ -121,9 +120,9 @@ const About = () => {
 					</h2>
 					<p className=" font-light italic text-xl  text-gray-600">
 						Unique Solutions, established in Shiroli MIDC, Kolhapur, is a
-						trusted name in machine manufacturing and engineering. 
-						We have been delivering Jig Fixturing and Machining tailored solutions that power India’s
-						leading industries.
+						trusted name in machine manufacturing and engineering. We have been
+						delivering Jig Fixturing and Machining tailored solutions that power
+						India’s leading industries.
 					</p>
 					<Link to="/contactus">
 						<motion.button

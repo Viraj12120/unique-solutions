@@ -94,7 +94,7 @@ const Aboutus = () => {
 			<div className="bg-[#FAFAFA] w-screen font-nunito">
 				{/* ABOUT US SECTION */}
 				<motion.div
-					className="p-6 md:p-12 flex flex-col lg:flex-row gap-12 items-center"
+					className="p-6 md:p-12 mt-16 flex flex-col lg:flex-row gap-12 items-center"
 					initial="initial"
 					whileInView="whileInView"
 					viewport={{ amount: 0.2 }}>
@@ -130,7 +130,7 @@ const Aboutus = () => {
 					/>
 				</motion.div>
 
-				<div className="p-6 md:p-12">
+				<div className="p-6 md:p-12 mt-16">
 					<motion.h2
 						initial={{ opacity: 0, y: 40 }}
 						whileInView={{ opacity: 1, y: 0 }}
@@ -144,7 +144,7 @@ const Aboutus = () => {
 						whileInView={{ opacity: 1, y: 0 }}
 						transition={{ duration: 1, delay: 0.5 }}
 						viewport={{ amount: 0.3 }}
-						className="mt-2 text-base md:text-lg text-gray-600 w">
+						className="mt-2 text-base md:text-lg text-gray-400 w">
 						We craft high-quality, tailored digital experiences with precision
 						and creativity — from design to deployment.
 					</motion.p>

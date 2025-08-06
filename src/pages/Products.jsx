@@ -120,7 +120,7 @@ const Products = () => {
 						whileInView={{ opacity: 1, y: 0 }}
 						transition={{ duration: 1 }}
 						viewport={{ once: true }}
-						className="p-8 text-lg w-full md:w-1/2 text-justify text-gray-700">
+						className="p-8 text-xl italic w-full md:w-1/2 text-justify text-gray-700">
 						At Unique Solutions, we specialize in designing and manufacturing a
 						wide range of precision-engineered components and systems for
 						machining, inspection, and hydraulic operations. With decades of
