@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import { useState, useEffect } from "react";
 import Lottie from "lottie-react";
 const ContactUs = () => {
@@ -45,8 +46,28 @@ const ContactUs = () => {
 			[e.target.id]: e.target.value,
 		});
 	};
+
+
+	
 	return (
 		<div>
+			<Helmet>
+				<meta charSet="UTF-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+				<title>
+					Contact - Unique Solution | Jig & Fixture Manufacturer, Kolhapur
+				</title>
+				<meta
+					name="description"
+					content="Contact Unique Solution for custom jigs, fixtures, gauges, and precision machining solutions. We are based in Kolhapur, Maharashtra, India—delivering quality tools right first time, every time."
+				/>
+				<meta
+					name="keywords"
+					content="Contact Unique Solution, Jig manufacturer contact, Fixture supplier Kolhapur, Gauge manufacturing, CNC machining India, Kolhapur, Maharashtra, email, phone, address"
+				/>
+				<meta name="author" content="Unique Solution, Kolhapur India" />
+			</Helmet>
+
 			<div className="w-full min-h-screen bg-[#FAFAFA] pt-24 font-nunito text-gray-900 px-6 md:px-16 py-12 grid grid-cols-1 lg:grid-cols-2 gap-12">
 				{/* Left Column - Heading and Form */}
 				<div className="flex flex-col justify-start space-y-8 mt-10">

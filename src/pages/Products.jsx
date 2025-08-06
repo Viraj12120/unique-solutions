@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
+import { Helmet } from "react-helmet";
 
 const Products = () => {
 	const products = [
@@ -46,20 +47,24 @@ const Products = () => {
 
 	return (
 		<div>
-			<title>
-				Products - Unique Solution | Precision Jig Fixtures, Hydraulic Systems &
-				Machining Solutions
-			</title>
-			<meta
-				name="description"
-				content="Explore Unique Group wide portfolio of hydraulic systems, precision tooling, cylinder drilling fixtures, soft jaws, clamping fixtures, and more—engineered for high-performance manufacturing and inspection."
-			/>
-			<meta
-				name="keywords"
-				content="hydraulic system, precision tooling, cylinder drilling, jig fixtures, soft jaws, hydraulic clamping fixture, manufacturing solutions, machining fixtures, industrial automation, Kolhapur, Unique Solution"
-			/>
-			<meta name="author" content="Unique Solution, Kolhapur India" />
-			<meta name="robots" content="index, follow" />
+			<Helmet>
+				<meta charSet="UTF-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+				<title>
+					Products - Unique Solution | Precision Jig Fixtures, Hydraulic Systems
+					& Machining Solutions
+				</title>
+				<meta
+					name="description"
+					content="Explore Unique Group wide portfolio of hydraulic systems, precision tooling, cylinder drilling fixtures, soft jaws, clamping fixtures, and more—engineered for high-performance manufacturing and inspection."
+				/>
+				<meta
+					name="keywords"
+					content="hydraulic system, precision tooling, cylinder drilling, jig fixtures, soft jaws, hydraulic clamping fixture, manufacturing solutions, machining fixtures, industrial automation, Kolhapur, Unique Solution"
+				/>
+				<meta name="author" content="Unique Solution, Kolhapur India" />
+				<meta name="robots" content="index, follow" />
+			</Helmet>
 
 			<div className="bg-[#FAFAFA] font-nunito">
 				<div className="relative w-screen min-h-screen overflow-hidden">

@@ -1,10 +1,14 @@
 import { motion } from "framer-motion";
 import Aboutus from "../components/Aboutus";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
+
 const Home = () => {
 	return (
 		<div>
-			<head>
+			<Helmet>
+				<meta charSet="UTF-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<title>
 					Unique Group - Innovative Jig Manufacturing and Machining Solutions
 				</title>
@@ -18,7 +22,7 @@ const Home = () => {
 				/>
 				<meta name="author" content="Unique Solution, Kolhapur India" />
 				<meta name="robots" content="index, follow" />
-			</head>
+			</Helmet>
 			<div className="w-full overflow-hidden relative">
 				<div className="font-nunito relative w-full min-h-screen overflow-hidden">
 					{/* Background Image */}

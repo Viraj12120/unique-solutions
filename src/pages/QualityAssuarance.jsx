@@ -1,9 +1,12 @@
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet";
 
 const QualityAssurance = () => {
 	return (
 		<div>
-			<head>
+			<Helmet>
+				<meta charSet="UTF-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<title>
 					Quality Assurance - Unique Solution | Precision & Performance
 				</title>
@@ -17,7 +20,7 @@ const QualityAssurance = () => {
 				/>
 				<meta name="author" content="Unique Solution, Kolhapur India" />
 				<meta name="robots" content="index, follow" />
-			</head>
+			</Helmet>
 			<div className="w-full font-nunito text-gray-800">
 				{/* 🔷 Hero Section */}
 				<div className="relative w-full h-[75vh]">
